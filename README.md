@@ -8,7 +8,7 @@ Flatpak build of [TigerVNC](https://tigervnc.org/).
 
 1.  Checkout the `beta` branch.
 2.  Update git tags and commits in `org.tigervnc.vncviewer.yml`.
-3.  Add `<release/>` tag to `metainfo.patch`.
+3.  Add `<release/>` tag to `metainfo.patch`. Add `type="development"` for pre-releases.
 
 ### Releasing to Flathub
 
