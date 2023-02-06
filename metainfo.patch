@@ -1,5 +1,5 @@
 --- org.tigervnc.vncviewer.metainfo.xml.in	2023-02-01 10:48:37.196144819 +0000
-+++ org.tigervnc.vncviewer.metainfo.xml	2023-02-01 10:49:18.375014717 +0000
++++ org.tigervnc.vncviewer.metainfo.xml	2023-02-06 22:13:02.017849894 +0000
 @@ -13,6 +13,8 @@
    <name>TigerVNC Viewer</name>
    <summary>Connect to VNC server and display remote desktop</summary>
@@ -9,12 +9,13 @@
    <description>
      <p>
        Virtual Network Computing (VNC) is a remote display system that allows you to view and interact with a virtual desktop environment running on another computer on the network.
-@@ -42,4 +44,8 @@
+@@ -42,4 +44,9 @@
        <image>https://raw.githubusercontent.com/TigerVNC/tigervnc/741d3edbfab65eda6f033078bc06347fe244ea6a/vncviewer/metainfo/tigervnc-connection-windows.jpg</image>
      </screenshot>
    </screenshots>
 +
 +  <releases>
-+    <release type="stable" version="1.12.0" date="2021-11-10" />
++    <release version="1.13.0" date="2023-02-03" />
++    <release version="1.12.0" date="2021-11-10" />
 +  </releases>
  </component>
