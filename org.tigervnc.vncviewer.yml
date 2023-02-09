@@ -46,10 +46,9 @@ modules:
     post-install:
       - cp -r libpam/include/* $FLATPAK_DEST/include
     sources:
-      - type: git
-        url: https://github.com/linux-pam/linux-pam.git
-        tag: v1.5.2
-        commit: 40f7d85f3736d058c26de1dafa4fed46de7d75ef
+      - type: archive
+        url: https://github.com/linux-pam/linux-pam/releases/download/v1.5.2/Linux-PAM-1.5.2.tar.xz
+        sha256: e4ec7131a91da44512574268f493c6d8ca105c87091691b8e9b56ca685d4f94d
   - name: vncviewer
     buildsystem: cmake-ninja
     config-opts:
