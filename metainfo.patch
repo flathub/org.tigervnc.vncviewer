@@ -1,7 +1,12 @@
 --- org.tigervnc.vncviewer.metainfo.xml.in	2023-02-01 10:48:37.196144819 +0000
 +++ org.tigervnc.vncviewer.metainfo.xml	2024-07-24 00:00:00.000000000 +0000
-@@ -13,6 +13,8 @@
+@@ -11,8 +11,13 @@
+   <metadata_license>FSFAP</metadata_license>
+   <project_license>GPL-2.0-or-later</project_license>
    <name>TigerVNC Viewer</name>
++  <developer id="org.tigervnc">
++    <name>TigerVNC Team</name>
++  </developer>
    <summary>Connect to VNC server and display remote desktop</summary>
    <content_rating type="oars-1.1"/>
 +  <url type="homepage">https://tigervnc.org/</url>
@@ -9,7 +14,7 @@
    <description>
      <p>
        Virtual Network Computing (VNC) is a remote display system that allows you to view and interact with a virtual desktop environment running on another computer on the network.
-@@ -42,4 +44,14 @@
+@@ -42,4 +47,14 @@
        <image>https://raw.githubusercontent.com/TigerVNC/tigervnc/741d3edbfab65eda6f033078bc06347fe244ea6a/vncviewer/metainfo/tigervnc-connection-windows.jpg</image>
      </screenshot>
    </screenshots>
@@ -17,10 +22,10 @@
 +  <releases>
 +    <release version="1.14.0" date="2024-07-24">
 +      <description>
-+        <p><a href="https://github.com/TigerVNC/tigervnc/releases/tag/v1.14.0">Release notes</a></p>
++        <p>https://github.com/TigerVNC/tigervnc/releases/tag/v1.14.0</p>
 +      </description>
 +    </release>
-+    <release version="1.13.0" date="2023-02-08" />
-+    <release version="1.12.0" date="2021-11-10" />
++    <release version="1.13.0" date="2023-02-08"/>
++    <release version="1.12.0" date="2021-11-10"/>
 +  </releases>
  </component>
